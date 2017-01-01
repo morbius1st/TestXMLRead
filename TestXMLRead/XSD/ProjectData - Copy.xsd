@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="file:///D:/Users/Jeff/Documents/Programming/VisualStudioProjects/TestXMLRead/TestXMLRead/XSD/ProjectData.xsd"
+  xmlns:tns ="file:///D:/Users/Jeff/Documents/Programming/VisualStudioProjects/TestXMLRead/TestXMLRead/XSD/ProjectData.xsd"
+  elementFormDefault="qualified"
+ >
+
+  <xs:simpleType name="Description">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="32"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name ="ProjectID">
+    <xs:restriction base="xs:string">
+      <xs:length value="8"/>
+      <xs:pattern value="[0-9]{4}-[0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name ="TaskID">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name ="PBID">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]*"/>
+      <xs:minLength value="0"/>
+      <xs:maxLength value="6"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Path">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ProjectInfo">
+    <xs:attribute name="ID" type="tns:ProjectID" use="required"/>
+    <xs:attribute name="Description" type="tns:Description" use="required"/>
+  </xs:complexType>
+
+  <xs:attributeGroup name="TaskInfo">
+    <xs:attribute name="ID" type="tns:TaskID" use="required"/>
+    <xs:attribute name="Description" type="tns:Description"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="PBInfo">
+    <xs:attribute name="ID" type="tns:PBID" use="required"/>
+    <xs:attribute name="Description" type="tns:Description"/>
+  </xs:attributeGroup>
+
+  <xs:complexType name="PathInfo">
+    <xs:attribute name="Path" type="tns:Path" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="ProjectData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name = "ProjectInformation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Project" type="tns:ProjectInfo"/>
+              <xs:element name="RootPath" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="CDPackages" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Task" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Phase" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Building" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name ="CDPath" type="tns:Path"/>
+                                <xs:element name="LocationAutoCAD" minOccurs="0" maxOccurs="1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="SheetFileFolder" type="tns:PathInfo"/>
+                                      <xs:element name="XrefFolder" type="tns:PathInfo"/>
+                                      <xs:element name="DetailFolder" type="tns:PathInfo"/>
+                                      <xs:element name="BorderFile" type="tns:PathInfo"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="LocationRevit" minOccurs="0" maxOccurs="1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="CDModelFile" type="tns:PathInfo"/>
+                                      <xs:element name="LibraryModelFile" type="tns:PathInfo"/>
+                                      <xs:element name="KeynoteFile" type="tns:PathInfo"/>
+                                      <xs:element name="LinkedFolder" type="tns:PathInfo"/>
+                                      <xs:element name="XrefFolder" type="tns:PathInfo"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+<!--                            building attributes-->
+                              <xs:attributeGroup ref="tns:PBInfo"/> 
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+<!--                      building attributes-->
+                        <xs:attributeGroup ref="tns:PBInfo"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+<!--                task attributes-->
+                  <xs:attributeGroup ref="tns:TaskInfo"/>
+                </xs:complexType>
+<!--              end Task-->
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+<!--          end CDPackages-->
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<UserProjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="File:///P:\VisualStudioProjNumbers\TestXMLRead\TestXMLRead\XSD\UserProjects.xsd">
+  <User Name="jeffs">
+    <Project Current="true" Active="true" Number="2099-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-999" Task="01" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2098-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2098-998" Task="01" Phase="1" Building="" />
+  </User>
+  <User Name="terry">
+    <Project Current="true" Active="false" Number="2098-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2098-998" Task="01" Phase="1" Building="" />
+    <Project Current="false" Active="true" Number="2099-996" Task="03" Phase="" Building="" />
+  </User>
+  <User Name="robb">
+    <Project Current="true" Active="true" Number="2099-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2098-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2098-998" Task="01" Phase="1" Building="" />
+  </User>
+  <User Name="victord">
+    <Project Current="true" Active="true" Number="2099-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-999" Task="01" Phase="1" Building="A" />
+  </User>
+  <User Name="joex">
+    <Project Current="true" Active="true" Number="2099-999" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-999" Task="01" Phase="1" Building="A" />
+    <Project Current="false" Active="false" Number="2099-996" Task="00" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-996" Task="01" Phase="1" Building="A" />
+    <Project Current="false" Active="false" Number="2099-996" Task="02" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-996" Task="03" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-996" Task="04" Phase="1" Building="A" />
+    <Project Current="false" Active="true" Number="2099-996" Task="05" Phase="1" Building="A" />
+    <Project Current="false" Active="false" Number="2099-990" Task="00" Phase="1" Building="A" />
+  </User>
+  <User Name="alyx">
+    <Project Current="false" Active="false" Number="2099-990" Task="00" Phase="1" Building="A" />
+  </User>
+</UserProjects>

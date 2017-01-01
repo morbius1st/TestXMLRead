@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema id="UserProjects"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="file:///P:/VisualStudioProjects/TestXMLRead/TestXMLRead/XSD/UserProjects.xsd"
+          xmlns:tns="file:///P:/VisualStudioProjects/TestXMLRead/TestXMLRead/XSD/UserProjects.xsd"
+    elementFormDefault="qualified"
+>
+  
+  <simpleType name ="projNumber">
+    <restriction base ="string">
+      <pattern value="[0-9]{4}-[0-9]{3}"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="projDescription">
+    <restriction base="string">
+      <length value="64"/>
+    </restriction>
+  </simpleType>
+ 
+  <simpleType name="taskNumber">
+    <restriction base="string">
+      <pattern value="[0-9]{2}"/>
+    </restriction>
+  </simpleType>
+
+
+  <simpleType name="pbInfo">
+    <restriction base ="string">
+      <minLength value="0"/>
+      <maxLength value="6"/>
+      <pattern value="[a-zA-Z0-9]*"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name ="Active">
+    <restriction base ="string">
+      <length value="1"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="useruserusernumber">
+    <restriction base="string">
+      <pattern value="[a-z]*"/>
+      <minLength value="2"/>
+      <maxLength value="32"/>
+    </restriction>
+  </simpleType>
+  
+
+  <attributeGroup name ="projectInfo">
+    <attribute name="Current" type="boolean"/>
+    <attribute name="Active" type="boolean"/>
+    <attribute name="Number" type="tns:projValue"/>
+    <attribute name="Task" type="tns:taskNumber"/>
+    <attribute name="Phase" type="tns:pbInfo"/>
+    <attribute name="Building" type="tns:pbInfo"/>
+  </attributeGroup>
+  
+  
+  <element name ="UserProjects">
+    <complexType>
+      <sequence>
+        <element name ="User" minOccurs="1" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name ="Project" minOccurs="1" maxOccurs="unbounded">
+                <complexType>
+                  <attributeGroup ref="tns:projectInfo"/>
+                </complexType>
+              </element>
+            </sequence>
+            <attribute name="Name" type="tns:useruserusernumber"/>
+          </complexType>
+        </element>
+      </sequence>
+      
+    </complexType>
+  </element>
+ 
+</schema>

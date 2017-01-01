@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectData xmlns="file:///D:/Users/Jeff/Documents/Programming/VisualStudioProjNumbers/TestXMLRead/TestXMLRead/XSD/ProjectData.xsd">
+  <ProjectInformation>
+    <Project Number="2098-999" Description="Folder Organization" />
+    <RootFolder>P:\2098-999 Test Project ACAD</RootFolder>
+  </ProjectInformation>
+  <CDPackages>
+    <Task Task="02" Description="Task 02">
+      <Phase Phase="3" Description="phase 3">
+        <Building Building="A" Description="Building A">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+        </Building>
+      </Phase>
+      <Phase Phase="1" Description="phase 1">
+        <Building Building="C" Description="Building C">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldg-sht-bdr.dwg" />
+          </LocationAutoCAD>
+        </Building>
+        <Building Building="B" Description="Building B">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldg-sht-bdr.dwg" />
+          </LocationAutoCAD>
+        </Building>
+      </Phase>
+      <Phase Phase="2" Description="Phase 2">
+        <Building Building="E" Description="Building E">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999  Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2"/>
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\X-Ref\x-9999-bldgB-sht-bdr.dwg" />
+          </LocationAutoCAD>
+        </Building>
+        <Building Building="D" Description="Building D">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999  Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2"/>
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase2\X-Ref\x-9999-bldgB-sht-bdr.dwg" />
+          </LocationAutoCAD>
+        </Building>
+      </Phase>
+    </Task>
+    <Task Task="00" Description="Task 00 Description 12-27-16">
+        <Phase Phase="6" Description="Phase 6 Description 12-27-16">
+          <Building Building="F" Description="Building F Description 12-27-16">
+            <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+            <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+            <LocationAutoCAD>
+              <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+              <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+              <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+              <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+            </LocationAutoCAD>
+            <LocationRevit>
+              <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+              <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+              <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+              <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+              <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+            </LocationRevit>
+          </Building>
+        </Phase>
+      <Phase Phase="4" Description="Phase 4">
+        <Building Building="G" Description="Building G">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+          <LocationRevit>
+            <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+            <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+            <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+            <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+            <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+          </LocationRevit>
+        </Building>
+        <Building Building="F" Description="Building F">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+          <LocationRevit>
+            <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+            <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+            <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+            <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+            <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+          </LocationRevit>
+        </Building>
+      </Phase>
+    </Task>
+    <Task Task="01" Description="Task 01">
+      <Phase Phase="6" Description="Phase 6">
+        <Building Building="F" Description="Building F">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+          <LocationRevit>
+            <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+            <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+            <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+            <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+            <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+          </LocationRevit>
+        </Building>
+      </Phase>
+      <Phase Phase="4" Description="Phase 4">
+        <Building Building="G" Description="Building G">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+          <LocationRevit>
+            <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+            <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+            <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+            <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+            <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+          </LocationRevit>
+        </Building>
+        <Building Building="F" Description="Building F">
+          <CDFolder>P:\2098-999 Test Project ACAD\CD</CDFolder>
+          <SheetNumberFormat>3:X#.#-#</SheetNumberFormat>
+          <LocationAutoCAD>
+            <SheetFileFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1" />
+            <XrefFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref" />
+            <DetailFolder Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\Details" />
+            <BorderFile Path="P:\2098-999 Test Project ACAD\CD\_AutoCAD\_00 ACAD Main-Phase1\X-Ref\x-9999-bldgA-sht-bdr.dwg" />
+          </LocationAutoCAD>
+          <LocationRevit>
+            <CDModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Main.rvt"/>
+            <LibraryModelFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Library.rvt"/>
+            <KeynoteFile Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked\9999 Revit.txt"/>
+            <LinkedFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\Linked"/>
+            <XrefFolder Path="C:\2099-999 Sample Project\CD\_Revit_00 Main\X-Ref"/>
+          </LocationRevit>
+        </Building>
+      </Phase>
+    </Task>
+  </CDPackages>
+</ProjectData>
